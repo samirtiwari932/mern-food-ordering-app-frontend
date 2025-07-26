@@ -8,7 +8,7 @@ import Auth0ProviderWithNavigate from "./auth/Auth0ProviderWithNavigate";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "sonner";
 
-const queryClient = new QueryClient({
+const queryClient = new QueryClient({ 
   defaultOptions: {
     queries: {
       refetchOnWindowFocus: false,
