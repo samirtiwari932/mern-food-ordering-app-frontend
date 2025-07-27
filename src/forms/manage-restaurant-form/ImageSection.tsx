@@ -7,8 +7,8 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { AspectRatio } from "@radix-ui/react-aspect-ratio";
-import React from "react";
-import { useForm, useFormContext } from "react-hook-form";
+
+import { useFormContext } from "react-hook-form";
 
 const ImageSection = () => {
   const { control, watch } = useFormContext();
